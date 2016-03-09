@@ -1,0 +1,33 @@
+{
+  "name": "express",
+  "description": "express learn",
+  "main": "app.js",
+  "authors": [
+    "Hogvarce"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/hogvarce/express",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "overrides": {
+      "bootstrap": {
+          "main": [
+            "dist/css/bootstrap.min.css",
+            "dist/js/bootstrap.js"
+          ]
+      }
+  }
+}

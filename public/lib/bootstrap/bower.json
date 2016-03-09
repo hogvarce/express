@@ -15,7 +15,7 @@
   "license": "MIT",
   "moduleType": "globals",
   "main": [
-    "less/bootstrap.less",
+    "dist/css/bootstrap.min.css",
     "dist/js/bootstrap.js"
   ],
   "ignore": [
@@ -30,5 +30,5 @@
   ],
   "dependencies": {
     "jquery": "1.9.1 - 2"
-  }
+    }
 }
