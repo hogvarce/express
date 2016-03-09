@@ -12,7 +12,9 @@
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
+		<!--inject:css-->
+		<link rel="stylesheet" href="/css/styles.css">
+		<!--endinject-->
 	</head>
 	<body>
 <!-- Wrap all page content here -->
@@ -387,6 +389,8 @@
 		<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
 		<!--endbower-->
 		<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
-		<script src="js/scripts.js"></script>
+		<!--inject:js-->
+		<script src="/js/scripts.js"></script>
+		<!--endinject-->
 	</body>
 </html>
