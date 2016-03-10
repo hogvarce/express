@@ -30,7 +30,7 @@ gulp.task('inject', function(){
         directory: './public/lib'
     };
 
-    return gulp.src('./public/index.html')
+    return gulp.src('./public/*.jade')
                 .pipe(wiredep(options))
                 .pipe(inject(injectScr, injectOptions))
                 .pipe(gulp.dest('./public'));
