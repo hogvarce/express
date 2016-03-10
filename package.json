@@ -13,7 +13,8 @@
     "bootstrap": "^3.3.6",
     "bower": "^1.7.7",
     "express": "4.x",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "wiredep": "^3.0.0"
   },
   "devDependencies": {
     "express-handlebars": "^3.0.0",

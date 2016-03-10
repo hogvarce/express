@@ -5,7 +5,7 @@ var bookRouter = express.Router();
 bookRouter.route('/')
             .get(function(req, res){
                 res.render('index', {
-                    view: 'views/books',
+                    view: ['views/books'],
                     books: [
                         {
                             title: "one",
