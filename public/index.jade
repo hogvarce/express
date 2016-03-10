@@ -1,0 +1,20 @@
+html
+    head
+        title Express
+        //- bower:css
+        link(rel='stylesheet', href='lib/bootstrap/dist/css/bootstrap.min.css')
+        //- endbower
+        //- inject:css
+        link(rel="stylesheet", href="/css/styles.css")
+        //- endinject
+    body
+        h1 Header
+        //- bower:js
+        script(src='lib/jquery/dist/jquery.js')
+        script(src='lib/bootstrap/dist/js/bootstrap.js')
+        //- endbower
+        //- inject:js
+        script(src="/js/scripts.js")
+        //- endinject
+        footer
+            &copy;2016
