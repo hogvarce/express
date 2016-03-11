@@ -1,4 +1,7 @@
-ul
-    each book, i in books 
-        li
-            !{book.title} #[br] #[i !{book.description}]
+extends ../layout.jade
+
+block content
+    ul
+        each book, i in books 
+            li
+                !{book.title} #[br] #[i !{book.description}]

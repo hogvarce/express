@@ -12,10 +12,14 @@ app.set('view engine', 'jade');
 
 
 app.get('/', function(req, res){
-    res.render('index');
+    res.render('./views');
 });
 
 app.use('/books', bookRouter);
+
+app.use(function(req, res, next) {
+    res.status(404).send('Sorry cant find that!');
+});
 
 app.listen(port, function(err){
     if (err) {
